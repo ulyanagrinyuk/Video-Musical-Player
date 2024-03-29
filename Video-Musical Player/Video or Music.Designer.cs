@@ -148,6 +148,7 @@
 			this.Controls.Add(this.btnOpen);
 			this.Controls.Add(this.listBox);
 			this.Controls.Add(this.Player);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Video_or_Music";
 			this.Text = "Video_or_Music";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

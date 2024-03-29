@@ -25,12 +25,18 @@ namespace Video_Musical_Player
 
 		private void btnNext_Click(object sender, EventArgs e)
 		{
-			(listBox.SelectedIndex)++;
-		}		
+			if (listBox.SelectedIndex < listBox.Items.Count - 1)
+				(listBox.SelectedIndex)++;
+			else
+				listBox.SelectedIndex = 0;
+		}
 
 		private void btnBack_Click(object sender, EventArgs e)
 		{
-			(listBox.SelectedIndex)--;
+			if (listBox.SelectedIndex > 0)
+				(listBox.SelectedIndex)--;
+			else
+				listBox.SelectedIndex = listBox.Items.Count - 1;
 		}
 
 		private void btnStop_Click(object sender, EventArgs e)
