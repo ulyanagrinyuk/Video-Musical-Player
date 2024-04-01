@@ -68,7 +68,7 @@
 			this.btnPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnPause.Location = new System.Drawing.Point(0, 1055);
 			this.btnPause.Name = "btnPause";
-			this.btnPause.Size = new System.Drawing.Size(106, 33);
+			this.btnPause.Size = new System.Drawing.Size(109, 33);
 			this.btnPause.TabIndex = 3;
 			this.btnPause.Text = "Pause";
 			this.btnPause.UseVisualStyleBackColor = false;
